@@ -66,13 +66,13 @@ IELTS Learning Assistant System 是一个智能学习助手，基于增强检索
 python preprocessing/run_preprocessing.py --input_dir data/sample_texts --output_dir data/embeddings
 ```
 
-#### 🖥️ 启动系统
+#### 2. 🖥️ 启动系统
 ```bash
 python main.py
 ```
 访问 http://localhost:5000 使用Web界面
 
-#### 🔧 API使用示例
+#### 3. 🔧 API使用示例
 ```bash
 from core.api import IELTSAssistant  
 assistant = IELTSAssistant()  

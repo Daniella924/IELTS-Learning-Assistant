@@ -1,3 +1,46 @@
+
+# IELTS-Learning-Assistant
+Enhanced RAG System with Dynamic Relevance Assessment for IELTS preparation.
+
+# IELTS Learning Assistant System
+
+## 项目概述
+IELTS Learning Assistant System是一个智能学习助手，基于增强检索增强生成(RAG)技术，专为IELTS考生设计。系统通过动态相关性评估机制，提供高度相关的学习资源和个性化反馈，帮助用户高效备考。
+
+## 系统架构
+系统分为三个主要部分：
+
+### 1. 预处理阶段（离线）
+- **文本数据收集**：整合IELTS教材和学习资源
+- **句子分割**：使用spaCy将文本分割为10句话的语义块
+- **嵌入生成**：使用all-mpnet-base-v2模型生成768维向量表示
+- **向量存储**：以CSV格式保存向量数据
+
+### 2. 主处理流程
+- **用户查询**：接收用户问题
+- **向量检索**：基于点积相似度检索相关内容
+- **相关内容提取**：获取Top-5相关语义块
+- **相关性评估**：使用0.65阈值评估内容相关性
+- **LLM生成**：使用Gemma-2b-it模型生成回答
+- **结果展示**：呈现答案及相关上下文
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # IELTS-Learning-Assistant
 Enhanced RAG System with Dynamic Relevance Assessment for IELTS preparation.
 

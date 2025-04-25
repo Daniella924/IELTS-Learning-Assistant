@@ -66,10 +66,12 @@ IELTS Learning Assistant System是一个智能学习助手，基于增强检索�
 #### 预处理数据
 ```bash
 python preprocessing/run_preprocessing.py --input_dir data/sample_texts --output_dir data/embeddings
+```
 
-####启动系统
+#### 启动系统
 ```bash
 python main.py
+```
 访问 http://localhost:5000 使用Web界面
 
 #### API使用示例
@@ -78,10 +80,9 @@ from core.api import IELTSAssistant
 assistant = IELTSAssistant()  
 response = assistant.ask("如何提高IELTS写作分数?")  
 print(response)  
-
+```
 
 ### 项目结构
-```
 ielts-learning-assistant/  
 ├── preprocessing/       # 预处理阶段代码  
 ├── core/                # 主流程代码  

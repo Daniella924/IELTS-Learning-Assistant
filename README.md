@@ -113,48 +113,48 @@ IELTS Learning Assistant System is an intelligent learning assistant based on en
 The system consists of three main parts:
 
 ### 1. 📝 Preprocessing Stage (Offline)
-Text Data Collection: Integrates IELTS textbooks and learning resources 📖
+- **Text Data Collection**: Integrates IELTS textbooks and learning resources 📖
 
-Sentence Segmentation: Uses spaCy to divide text into semantic chunks of 10 sentences 🧠
+- **Sentence Segmentation**: Uses spaCy to divide text into semantic chunks of 10 sentences 🧠
 
-Embedding Generation: Uses all-mpnet-base-v2 model to generate 768-dimensional vector representations 🔢
+- **Embedding Generation**: Uses all-mpnet-base-v2 model to generate 768-dimensional vector representations 🔢
 
-Vector Storage: Saves vector data in CSV format 💾
+- **Vector Storage**: Saves vector data in CSV format 💾
 
 ### 2. ⚙️ Main Processing Flow
-User Query: Receives user questions 📩
+- **User Query**: Receives user questions 📩
 
-Vector Retrieval: Retrieves relevant content based on dot product similarity 🔍
+- **Vector Retrieval**: Retrieves relevant content based on dot product similarity 🔍
 
-Relevant Content Extraction: Gets Top-5 relevant semantic chunks 🥇
+- **Relevant Content Extractio**n: Gets Top-5 relevant semantic chunks 🥇
 
-Relevance Assessment: Uses 0.65 threshold to evaluate content relevance 🔑
+- **Relevance Assessment**: Uses 0.65 threshold to evaluate content relevance 🔑
 
-LLM Generation: Uses Gemma-2b-it model to generate responses 🤖
+- **LLM Generation**: Uses Gemma-2b-it model to generate responses 🤖
 
-Result Display: Presents answers and related context 💡
+- **Result Display**: Presents answers and related context 💡
 
 ### 3. 🎯 Additional Features
-Writing Evaluation: Evaluates and improves IELTS essays ✍️
+- **Writing Evaluation**: Evaluates and improves IELTS essays ✍️
 
-Study Plan: Generates personalized learning roadmap 🗺️
+- **Study Plan**: Generates personalized learning roadmap 🗺️
 
-Mock Tests: Provides IELTS practice tests 📝
+- **Mock Tests**: Provides IELTS practice tests 📝
 
-Text-to-Speech: Uses MMS-TTS-Eng to convert text to speech 🔊
+- **Text-to-Speech**: Uses MMS-TTS-Eng to convert text to speech 🔊
 
-Progress Tracking: Records learning progress and provides feedback 📊
+- **Progress Tracking**: Records learning progress and provides feedback 📊
 
 ## 🚀 Technical Highlights
-Dynamic Relevance Assessment: Adjusts response strategy dynamically based on 0.65 threshold 🎯
+- **Dynamic Relevance Assessmen**t: Adjusts response strategy dynamically based on 0.65 threshold 🎯
 
-Precise Corpus Chunking: 10-sentence chunking strategy balances context and precision 🔄
+- **Precise Corpus Chunking**: 10-sentence chunking strategy balances context and precision 🔄
 
-Lightweight Model Selection: Uses Gemma-2b-it to balance speed and quality ⚡
+- **Lightweight Model Selectio**n: Uses Gemma-2b-it to balance speed and quality ⚡
 
-Multimodal Interaction: Combines text and speech features to support various learning methods 🗣️
+- **Multimodal Interaction**: Combines text and speech features to support various learning methods 🗣️
 
-Learning Loop Design: Optimizes study plans through progress tracking feedback 🔁
+- **Learning Loop Design**: Optimizes study plans through progress tracking feedback 🔁
 
 ## 📦 Installation Instructions
 ### 🖥️ Environment Requirements
@@ -201,15 +201,15 @@ print(response)
 ```  
 
 ### 📂 Project Structure
-ielts-learning-assistant/
-├── preprocessing/ # Preprocessing stage code
-├── core/ # Main process code
-├── features/ # Additional features code
-├── ui/ # User interface code
-├── data/ # Sample data
-├── models/ # Model configurations
-├── requirements.txt # Project dependencies
-└── main.py # Main program entry
+ielts-learning-assistant/  
+├── preprocessing/     
+├── core/                
+├── features/             
+├── ui/                    
+├── data/             
+├── models/             
+├── requirements.txt     
+└── main.py          
 
 ### 👨‍💻 Team Information
 • LEO

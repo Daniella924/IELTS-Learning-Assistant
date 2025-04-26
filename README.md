@@ -60,21 +60,21 @@ The system consists of three main parts:
 
 ### Installation Steps
 Clone repository:
-    ```bash
-    git clone https://github.com/您的用户名/ielts-learning-assistant.git
-    cd ielts-learning-assistant
-    ```
+```bash
+git clone https://github.com/您的用户名/ielts-learning-assistant.git
+cd ielts-learning-assistant
+```
 
 Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    python -m spacy download en_core_web_sm
-    ```  
+```bash
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+```  
 
 Download necessary models:
-    ```bash
-    python download_models.py
-    ```
+```bash
+python download_models.py
+```
     
 ### 🚀 Usage
 #### 1. 🛠️ Preprocess Data
